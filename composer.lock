@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8e6e7fe5fd9d19060838a2fee2857ca4",
+    "content-hash": "556b46b7ba4717d19091d6553453ca26",
     "packages": [
         {
             "name": "brick/math",
@@ -60,6 +60,54 @@
                 }
             ],
             "time": "2023-01-15T23:15:59+00:00"
+        },
+        {
+            "name": "cupskydev/repository-maker",
+            "version": "v1.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cupskydev/repository-maker.git",
+                "reference": "24c337c26b4a78973bedc214e2f34f7c58e2f7cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cupskydev/repository-maker/zipball/24c337c26b4a78973bedc214e2f34f7c58e2f7cb",
+                "reference": "24c337c26b4a78973bedc214e2f34f7c58e2f7cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^8.1"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Cupskydev\\RepositoryMaker\\GenerateRepositoryProvider",
+                        "Cupskydev\\RepositoryMaker\\GenerateServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cupskydev\\RepositoryMaker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "yusufwandana",
+                    "email": "yusuf.wandana1@gmail.com"
+                }
+            ],
+            "description": "Repository Maker for Laravel",
+            "support": {
+                "issues": "https://github.com/cupskydev/repository-maker/issues",
+                "source": "https://github.com/cupskydev/repository-maker/tree/v1.2.1"
+            },
+            "time": "2023-01-31T08:31:19+00:00"
         },
         {
             "name": "dflydev/dot-access-data",
