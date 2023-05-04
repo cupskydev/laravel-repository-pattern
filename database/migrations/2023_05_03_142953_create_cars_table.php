@@ -16,9 +16,9 @@ return new class extends Migration
             $table->string('name');
             $table->string('brand');
             $table->string('color');
-            $table->string('image');
+            $table->text('image_url')->nullable();
             $table->integer('year');
-            $table->decimal('price', 20, 2);
+            $table->decimal('price', 20, 0);
             $table->longText('description');
             $table->timestamps();
         });
